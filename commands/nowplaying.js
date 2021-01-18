@@ -14,7 +14,7 @@ module.exports = {
     if (!serverQueue) return sendError("There is nothing playing in this server.", message.channel);
     let song = serverQueue.songs[0]
     let thing = new MessageEmbed()
-      .setAuthor("Now Playing", "https://raw.githubusercontent.com/Wruckles/Wruckusbot/main/assets/Music.gif?token=ASP7LYGAOU2UYDZRRQZOUTLAAX6H2")
+      .setAuthor("Now Playing", "https://raw.githubusercontent.com/SudhanPlayz/Discord-MusicBot/master/assets/Music.gif")
       .setThumbnail(song.img)
       .setColor("PURPLE")
       .addField("Name", song.title, true)
