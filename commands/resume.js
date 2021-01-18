@@ -17,7 +17,7 @@ module.exports = {
       let xd = new MessageEmbed()
       .setDescription("▶ Resumed the music for you!")
       .setColor("PURPLE")
-      .setAuthor("Music has been Resumed!", "https://raw.githubusercontent.com/Wruckles/Wruckusbot/main/assets/mangekyo%20sharingan.gif")
+      .setAuthor("Music has been Resumed!", "https://raw.githubusercontent.com/Wruckles/Wruckusbot/main/assets/Music.gif?token=ASP7LYGAOU2UYDZRRQZOUTLAAX6H2")
       return message.channel.send(xd);
     }
     return sendError("There is nothing playing in this server.", message.channel);
