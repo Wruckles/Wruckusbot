@@ -77,7 +77,7 @@ function generateQueueEmbed(message, queue) {
   
     const serverQueue =message.client.queue.get(message.guild.id);
     const embed = new MessageEmbed()
-     .setAuthor("Server Songs Queue", "https://raw.githubusercontent.com/Wruckles/Wruckusbot/assets/mangekyo sharingan.gif")
+     .setAuthor("Server Songs Queue", "https://raw.githubusercontent.com/Wruckles/Wruckusbot/main/assets/mangekyo%20sharingan.gif?token=ASP7LYGZSURDO7327AXAISLAAX3IY")
     .setThumbnail(message.guild.iconURL())
     .setColor("PURPLE")
     .setDescription(`${info}`)
