@@ -16,8 +16,8 @@ module.exports = {
       serverQueue.connection.dispatcher.resume();
       let xd = new MessageEmbed()
       .setDescription("▶ Resumed the music for you!")
-      .setColor("YELLOW")
-      .setAuthor("Music has been Resumed!", "https://raw.githubusercontent.com/SudhanPlayz/Discord-MusicBot/master/assets/Music.gif")
+      .setColor("PURPLE")
+      .setAuthor("Music has been Resumed!", "https://raw.githubusercontent.com/Wruckles/Wruckuslavet/master/assets/mangekyo sharingan.gif")
       return message.channel.send(xd);
     }
     return sendError("There is nothing playing in this server.", message.channel);
