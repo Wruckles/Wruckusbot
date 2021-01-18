@@ -21,7 +21,7 @@ module.exports = {
     serverQueue.connection.dispatcher.setVolumeLogarithmic(args[0] / 100);
     let xd = new MessageEmbed()
     .setDescription(`I set the volume to: **${args[0]/1}/100**`)
-    .setAuthor("Server Volume Manager", "https://raw.githubusercontent.com/Wruckles/Wruckuslavet/master/assets/mangekyo sharingan.gif")
+    .setAuthor("Server Volume Manager", "https://github.com/Wruckles/Wruckusbot/blob/main/assets/mangekyo%20sharingan.gif)
     .setColor("PURPLE")
     return message.channel.send(xd);
   },
