@@ -84,7 +84,7 @@ module.exports = {
     if (serverQueue) {
       serverQueue.songs.push(song);
       let thing = new MessageEmbed()
-      .setAuthor("Song has been added to queue", "https://raw.githubusercontent.com/Wruckles/Wruckusbot/main/assets/mangekyo%20sharingan.gif")
+      .setAuthor("Song has been added to queue", "https://raw.githubusercontent.com/Wruckles/Wruckusbot/main/assets/Music.gif?token=ASP7LYGAOU2UYDZRRQZOUTLAAX6H2")
       .setThumbnail(song.img)
       .setColor("PURPLE")
       .addField("Name", song.title, true)
@@ -150,7 +150,7 @@ stream.on('error', function(er)  {
 
       dispatcher.setVolumeLogarithmic(queue.volume / 100);
       let thing = new MessageEmbed()
-      .setAuthor("Started Playing Music!", "https://raw.githubusercontent.com/Wruckles/Wruckusbot/main/assets/mangekyo%20sharingan.gif")
+      .setAuthor("Started Playing Music!", "https://raw.githubusercontent.com/Wruckles/Wruckusbot/main/assets/Music.gif?token=ASP7LYGAOU2UYDZRRQZOUTLAAX6H2")
       .setThumbnail(song.img)
       .setColor("PURPLE")
       .addField("Name", song.title, true)
