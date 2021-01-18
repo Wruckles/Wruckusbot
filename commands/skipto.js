@@ -44,7 +44,7 @@ module.exports = {
     
     queue.textChannel.send({
                         embed: {
-                            color: "PURPLE",
+                            color: "RED",
                             description: `${message.author} ⏭ skipped \`${args[0] - 1}\` songs`
                         }
    
