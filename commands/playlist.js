@@ -38,7 +38,7 @@ module.exports = {
 				}
 				return message.channel.send({
 					embed: {
-						color: "PURPLE",
+						color: "RED",
 						description: `✅  **|**  Playlist: **\`${videos[0].title}\`** has been added to the queue`
 					}
 				})
@@ -62,7 +62,7 @@ module.exports = {
 				let thing = new MessageEmbed()
 					.setAuthor("Playlist has been added to queue", "https://raw.githubusercontent.com/SudhanPlayz/Discord-MusicBot/master/assets/Music.gif")
 					.setThumbnail(songInfo.thumbnail)
-					.setColor("PURPLE")
+					.setColor("RED")
 					.setDescription(`✅  **|**  Playlist: **\`${songInfo.title}\`** has been added \`${songInfo.videoCount}\` video to the queue`)
 				return message.channel.send(thing)
 			} catch (error) {
@@ -111,7 +111,7 @@ module.exports = {
 				let thing = new MessageEmbed()
 					.setAuthor("Song has been added to queue", "https://raw.githubusercontent.com/SudhanPlayz/Discord-MusicBot/master/assets/Music.gif")
 					.setThumbnail(song.img)
-					.setColor("PURPLE")
+					.setColor("RED")
 					.addField("Name", song.title, true)
 					.addField("Duration", song.duration, true)
 					.addField("Requested by", song.req.tag, true)
@@ -167,7 +167,7 @@ stream.on('error', function(er)  {
 let thing = new MessageEmbed()
 				.setAuthor("Started Playing Music!", "https://raw.githubusercontent.com/SudhanPlayz/Discord-MusicBot/master/assets/Music.gif")
 				.setThumbnail(song.img)
-				.setColor("PURPLE")
+				.setColor("RED")
 				.addField("Name", song.title, true)
 				.addField("Duration", song.duration, true)
 				.addField("Requested by", song.req.tag, true)
