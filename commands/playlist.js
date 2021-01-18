@@ -60,7 +60,7 @@ module.exports = {
 					await handleVideo(video, message, channel, true); // eslint-disable-line no-await-in-loop
 				}
 				let thing = new MessageEmbed()
-					.setAuthor("Playlist has been added to queue", "https://raw.githubusercontent.com/Wruckles/Wruckusbot/assets/mangekyo sharingan.gif")
+					.setAuthor("Playlist has been added to queue", "https://raw.githubusercontent.com/Wruckles/Wruckusbot/main/assets/mangekyo%20sharingan.gif?token=ASP7LYGZSURDO7327AXAISLAAX3IY")
 					.setThumbnail(songInfo.thumbnail)
 					.setColor("PURPLE")
 					.setDescription(`✅  **|**  Playlist: **\`${songInfo.title}\`** has been added \`${songInfo.videoCount}\` video to the queue`)
@@ -165,7 +165,7 @@ stream.on('error', function(er)  {
 
     dispatcher.setVolume(serverQueue.volume / 100);
 let thing = new MessageEmbed()
-				.setAuthor("Started Playing Music!", "https://raw.githubusercontent.com/Wruckles/Wruckusbot/assets/mangekyo sharingan.gif")
+				.setAuthor("Started Playing Music!", "https://raw.githubusercontent.com/Wruckles/Wruckusbot/main/assets/mangekyo%20sharingan.gif?token=ASP7LYGZSURDO7327AXAISLAAX3IY")
 				.setThumbnail(song.img)
 				.setColor("PURPLE")
 				.addField("Name", song.title, true)
