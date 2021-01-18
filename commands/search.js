@@ -31,7 +31,7 @@ module.exports = {
           if (searched[0] == undefined)return sendError("Looks like i was unable to find the song on YouTube", message.channel);
                     let index = 0;
                     let embedPlay = new MessageEmbed()
-                        .setColor("BLUE")
+                        .setColor("PURPLE")
                         .setAuthor(`Results for \"${args.join(" ")}\"`, message.author.displayAvatarURL())
                         .setDescription(`${searched.map(video2 => `**\`${++index}\`  |** [\`${video2.title}\`](${video2.url}) - \`${video2.durationFormatted}\``).join("\n")}`)
                         .setFooter("Type the number of the song to add it to the playlist");
@@ -61,7 +61,7 @@ module.exports = {
                     console.error(err);
                     return message.channel.send({
                         embed: {
-                            color: "RED",
+                            color: "PURPLE",
                             description: "🆘  **|**  I could not obtain any search results"
                         }
                     });
@@ -84,9 +84,9 @@ module.exports = {
     if (serverQueue) {
       serverQueue.songs.push(song);
       let thing = new MessageEmbed()
-      .setAuthor("Song has been added to queue", "https://raw.githubusercontent.com/SudhanPlayz/Discord-MusicBot/master/assets/Music.gif")
+      .setAuthor("Song has been added to queue", "https://raw.githubusercontent.com/Wruckles/Wruckuslavet/master/assets/mangekyo sharingan.gif")
       .setThumbnail(song.img)
-      .setColor("YELLOW")
+      .setColor("PURPLE")
       .addField("Name", song.title, true)
       .addField("Duration", song.duration, true)
       .addField("Requested by", song.req.tag, true)
@@ -152,7 +152,7 @@ stream.on('error', function(er)  {
       let thing = new MessageEmbed()
       .setAuthor("Started Playing Music!", "https://raw.githubusercontent.com/SudhanPlayz/Discord-MusicBot/master/assets/Music.gif")
       .setThumbnail(song.img)
-      .setColor("BLUE")
+      .setColor("PURPLE")
       .addField("Name", song.title, true)
       .addField("Duration", song.duration, true)
       .addField("Requested by", song.req.tag, true)
