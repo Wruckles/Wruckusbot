@@ -77,9 +77,9 @@ function generateQueueEmbed(message, queue) {
   
     const serverQueue =message.client.queue.get(message.guild.id);
     const embed = new MessageEmbed()
-     .setAuthor("Server Songs Queue", "https://raw.githubusercontent.com/SudhanPlayz/Discord-MusicBot/master/assets/Music.gif")
+     .setAuthor("Server Songs Queue", "https://raw.githubusercontent.com/Wruckles/Wruckuslavet/master/assets/mangekyo sharingan.gif")
     .setThumbnail(message.guild.iconURL())
-    .setColor("BLUE")
+    .setColor("PURPLE")
     .setDescription(`${info}`)
     .addField("Now Playing", `[${queue[0].title}](${queue[0].url})`, true)
     .addField("Text Channel", serverQueue.textChannel, true)
