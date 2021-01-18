@@ -24,7 +24,7 @@ module.exports = {
     }
 
     let lyricsEmbed = new MessageEmbed()
-      .setAuthor(`${queue.songs[0].title} — Lyrics`, "https://raw.githubusercontent.com/Wruckles/Wruckusbot/assets/mangekyo sharingan.gif")
+      .setAuthor(`${queue.songs[0].title} — Lyrics`, "https://raw.githubusercontent.com/Wruckles/Wruckusbot/main/assets/mangekyo%20sharingan.gif?token=ASP7LYGZSURDO7327AXAISLAAX3IY")
       .setThumbnail(queue.songs[0].img)
       .setColor("PURPLE")
       .setDescription(lyrics)
