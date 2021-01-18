@@ -21,7 +21,7 @@ module.exports = {
             serverQueue.afk = !serverQueue.afk;
              message.channel.send({
                 embed: {
-                    color: "PURPLE",
+                    color: "RED",
                     description: `💤  **|**  AFK is **\`${serverQueue.afk === true ? "enabled" : "disabled"}\`**`
                 }
             });
