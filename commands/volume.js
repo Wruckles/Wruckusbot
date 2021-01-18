@@ -18,10 +18,10 @@ module.exports = {
      if(isNaN(args[0])) return message.channel.send(':notes: Numbers only!').catch(err => console.log(err));
     if(parseInt(args[0]) > 200 ||(args[0]) < 0) return sendError('You can\'t set the volume more than 200. or lower than 0',message.channel).catch(err => console.log(err));
     serverQueue.volume = args[0]; 
-    serverQueue.connection.dispatcher.setVolumeLogarithmic(args[0] / 100);
+    serverQueue.connection.dispatcher.setVolumeLogarithmic(args[0] / 200);
     let xd = new MessageEmbed()
-    .setDescription(`I set the volume to: **${args[0]/1}/100**`)
-    .setAuthor("Server Volume Manager", "https://github.com/Wruckles/Wruckusbot/blob/main/assets/mangekyo%20sharingan.gif)
+    .setDescription(`I set the volume to: **${args[0]/1}/200**`)
+    .setAuthor("Server Volume Manager", "https://raw.githubusercontent.com/Wruckles/Wruckusbot/master/assets/mangekyo sharingan.gif")
     .setColor("PURPLE")
     return message.channel.send(xd);
   },
