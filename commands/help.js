@@ -18,7 +18,7 @@ module.exports = {
 
         let embed = new MessageEmbed()
         .setAuthor("Commands of "+client.user.username, "https://raw.githubusercontent.com/Wruckles/Wruckusbot/main/assets/sh.gif")
-        .setColor("BLUE")
+        .setColor("RED")
         .setDescription(allcmds)
         .setFooter(`To get info of each command you can do ${client.config.prefix}help [command] | Hander by Wruckles`)
 
