@@ -60,7 +60,7 @@ module.exports = {
 					await handleVideo(video, message, channel, true); // eslint-disable-line no-await-in-loop
 				}
 				let thing = new MessageEmbed()
-					.setAuthor("Playlist has been added to queue", "https://raw.githubusercontent.com/Wruckles/Wruckusbot/main/assets/sh.gif?token=ASP7LYAS4DNDXHVPVYNG5HTABZO4U")
+					.setAuthor("Playlist has been added to queue", "https://raw.githubusercontent.com/Wruckles/Wruckusbot/main/assets/sh.gif?token=ASP7LYFKIN6SD2AJDEGWIDLAB6NOC")
 					.setThumbnail(songInfo.thumbnail)
 					.setColor("RED")
 					.setDescription(`✅  **|**  Playlist: **\`${songInfo.title}\`** has been added \`${songInfo.videoCount}\` video to the queue`)
@@ -109,7 +109,7 @@ module.exports = {
 				serverQueue.songs.push(song);
 				if (playlist) return;
 				let thing = new MessageEmbed()
-					.setAuthor("Song has been added to queue", "https://raw.githubusercontent.com/Wruckles/Wruckusbot/main/assets/sh.gif?token=ASP7LYAS4DNDXHVPVYNG5HTABZO4U")
+					.setAuthor("Song has been added to queue", "https://raw.githubusercontent.com/Wruckles/Wruckusbot/main/assets/sh.gif?token=ASP7LYFKIN6SD2AJDEGWIDLAB6NOC")
 					.setThumbnail(song.img)
 					.setColor("RED")
 					.addField("Name", song.title, true)
@@ -165,7 +165,7 @@ stream.on('error', function(er)  {
 
     dispatcher.setVolume(serverQueue.volume / 100);
 let thing = new MessageEmbed()
-				.setAuthor("Started Playing Music!", "https://raw.githubusercontent.com/Wruckles/Wruckusbot/main/assets/sh.gif?token=ASP7LYAS4DNDXHVPVYNG5HTABZO4U")
+				.setAuthor("Started Playing Music!", "https://raw.githubusercontent.com/Wruckles/Wruckusbot/main/assets/sh.gif?token=ASP7LYFKIN6SD2AJDEGWIDLAB6NOC")
 				.setThumbnail(song.img)
 				.setColor("RED")
 				.addField("Name", song.title, true)
