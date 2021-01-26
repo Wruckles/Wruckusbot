@@ -77,7 +77,7 @@ function generateQueueEmbed(message, queue) {
   
     const serverQueue =message.client.queue.get(message.guild.id);
     const embed = new MessageEmbed()
-     .setAuthor("Server Songs Queue", "https://raw.githubusercontent.com/Wruckles/Wruckusbot/main/assets/sh.gif?token=ASP7LYFKIN6SD2AJDEGWIDLAB6NOC")
+     .setAuthor("Server Songs Queue", "https://raw.githubusercontent.com/Wruckles/Wruckusbot/main/assets/sh.gif")
     .setThumbnail(message.guild.iconURL())
     .setColor("RED")
     .setDescription(`${info}`)
