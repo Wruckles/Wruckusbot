@@ -23,7 +23,7 @@ module.exports = {
     if (!permissions.has("SPEAK"))return sendError("I cannot speak in this voice channel, make sure I have the proper permissions!", message.channel);
 
     var searchString = args.join(" ");
-    if (!searchString)return sendError("You didn't poivide want i want to search", message.channel);
+    if (!searchString)return sendError("You didn't provide want i want to search", message.channel);
 
     var serverQueue = message.client.queue.get(message.guild.id);
     try {
